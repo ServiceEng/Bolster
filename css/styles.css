@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	
+}
+
+.main {
+    width: 100%; 
+}
+
+
+
+.imagen2 {
+	width: 100%;
+	margin-top: -25px;
+}
+
+div .imagen3_nom {
+	width:100%;
+	margin: 0 auto;
+	
+}
+
+div .imagen4_nom {
+	width:100%;
+	margin: 0 auto;
+	
+}
+
+
+h1{
+	font-weight: 900;
+	margin: 30px auto;
+	text-align: center;
+}
+
+model-viewer{
+	
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    --poster-color: transparent;
+}
+.btns{
+
+  position:absolute;
+  width: 100px;
+  height: 20px;
+  margin: 0px 10px;
+  top: 15%;
+  
+}
+.round-btn{
+		
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 60%;
+  height: 20px;
+  border: 1;
+  border-radius: 10%;
+  margin: 20px;
+  color: #fff;
+  font-size: 15px;
+  background-color: rgb(7, 3, 70);
+  transition: transform 250ms;
+}
+
+.round-btn:hover {
+  transform: scale(1.1);
+}
+
+
+#orbit-btn{
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.Hotspot2 {
+	background:rgb(250, 4, 4);
+	border-radius: 20px;
+	border: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+	cursor: pointer;
+	height: 4px;
+	padding: 4px;
+	position: relative;
+	transition: opacity 0.3s;
+	width: 4px;
+	font-size: 5px;
+}
+
+.Hotspot {
+	visibility: hidden;
+	background: transparent;
+	border-radius: 20px;
+	border: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+	cursor: pointer;
+	height: 4px;
+	padding: 4px;
+	position: relative;
+	transition: opacity 0.3s;
+	width: 5px;
+}
+.Hotspot3 {
+	background: rgb(185, 247, 15);
+	border-radius: 20px;
+	border: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+	cursor: pointer;
+	height: 4px;
+	padding: 4px;
+	position: relative;
+	transition: opacity 0.3s;
+	width: 4px;
+	font-size: 5px;
+}
+.Hotspot4 {
+	background: rgb(7, 240, 58);
+	border-radius: 20px;
+	border: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+	cursor: pointer;
+	height: 4px;
+	padding: 4px;
+	position: relative;
+	transition: opacity 0.3s;
+	width: 4px;
+	font-size: 5px;
+}
+
+  
+.Hotspot:not([data-visible]) {
+	background: transparent;
+	border: .2px solid #fff;
+	box-shadow: none;
+	height: 1px;
+	pointer-events: none;
+	width: 1px;
+}
+  
+.Hotspot:focus {
+	border: .2px solid rgb(0, 128, 200);
+	height: 1px;
+	outline: none;
+	width: 1px;
+  }
+  
+.Hotspot > * {
+	opacity: 1;
+	transform: translateY(-50%);
+}
+  
+.HotspotAnnotation{
+	visibility: hidden;
+	background: transparent;
+	border-radius: 3px;
+	display: block;
+	font-size: 11px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-weight: 700;
+	left: calc(100% + 1em);
+	max-width: 128px;
+	overflow-wrap: break-word;
+	padding: 0.5em 1em;
+	position: absolute;
+	top: 50%;
+	width: max-content;
+	color: transparent;
+}
+
+.HotspotAnnotation2{
+	background: rgb(250, 4, 4);
+	border-radius: 3px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+	color: rgba(0, 0, 0, 0.8);
+	display: block;
+	font-family: Futura, Helvetica Neue, sans-serif;
+	font-size: 9px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-weight: 700;
+	left: calc(100% + 1em);
+	max-width: 128px;
+	overflow-wrap: break-word;
+	padding: 0.3em;
+	position: absolute;
+	top: 50%;
+	width: max-content;
+}
+
+.HotspotAnnotation3{
+	background: rgb(185, 247, 15);
+	border-radius: 3px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+	color: rgba(0, 0, 0, 0.8);
+	display: block;
+	font-family: Futura, Helvetica Neue, sans-serif;
+	font-size: 9px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-weight: 700;
+	left: calc(100% + 1em);
+	max-width: 128px;
+	overflow-wrap: break-word;
+	padding: 0.3em;
+	position: absolute;
+	top: 50%;
+	width: max-content;
+}
+
+.HotspotAnnotation4{
+	background: rgb(7, 240, 58);
+	border-radius: 3px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+	color: rgba(0, 0, 0, 0.8);
+	display: block;
+	font-size: 9px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-weight: 700;
+	left: calc(100% + 1em);
+	max-width: 128px;
+	overflow-wrap: break-word;
+	padding: 0.3em;
+	position: absolute;
+	top: 50%;
+	width: max-content;
+}
+
+
+
+.Hotspot:not([data-visible]) > * {
+	opacity: 0;
+	pointer-events: none;
+	transform: translateY(calc(-50% + 4px));
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.progress-bar {
+	display: block;
+	width: 33%;
+	height: 10%;
+	max-height: 2%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	border-radius: 25px;
+	box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5), 0px 0px 5px 1px rgba(0, 0, 0, 0.6);
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	background-color: rgba(0, 0, 0, 0.5);
+}
+  
+.progress-bar.hide {
+	visibility: hidden;
+	transition: visibility 0.3s;
+}
+  
+.update-bar {
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 0%;
+	height: 100%;
+	border-radius: 25px;
+	float: left;
+	transition: width 0.3s;
+}
+
+@media screen and (max-width: 900px) {
+
+    .btns{
+        position:absolute;
+        width: 65px;
+        height: 20px;
+        margin: 0px 5px;
+        top: 15%;
+		
+     
+    }
+    
+    .round-btn{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        width: 100%px;
+        height: 20px;
+        border: none;
+        border-radius: 10%;
+        margin: 10px 3px;
+        color: #fff;
+        font-size: 8px;
+        background-color: rgb(7, 3, 70);
+        transition: transform 250ms;
+    }
+
+    model-viewer {
+    height: 400px;    
+    }  
+}
+
+@media screen and (max-width: 600px) {
+
+    .btns{
+        position:absolute;
+        width: 65px;
+        height: 20px;
+        margin: 0px 5px;
+        top: 15%;
+     
+    }
+    
+    .round-btn{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        width: 100%px;
+        height: 20px;
+        border: none;
+        border-radius: 10%;
+        margin: 10px 3px;
+        color: #fff;
+        font-size: 8px;
+        background-color: rgb(7, 3, 70);
+        transition: transform 250ms;
+    }
+
+    model-viewer {
+    height: 400px;    
+    }  
+}
