@@ -165,7 +165,7 @@ model-viewer{
 	background: transparent;
 	border-radius: 3px;
 	display: block;
-	font-size: 11px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-size: 13px;										/*Cambio de tamñano en texto o numeros hotspot*/
 	font-weight: 700;
 	left: calc(100% + 1em);
 	max-width: 128px;
@@ -184,7 +184,7 @@ model-viewer{
 	color: rgba(0, 0, 0, 0.8);
 	display: block;
 	font-family: Futura, Helvetica Neue, sans-serif;
-	font-size: 9px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-size: 13px;										/*Cambio de tamñano en texto o numeros hotspot*/
 	font-weight: 700;
 	left: calc(100% + 1em);
 	max-width: 128px;
@@ -202,7 +202,7 @@ model-viewer{
 	color: rgba(0, 0, 0, 0.8);
 	display: block;
 	font-family: Futura, Helvetica Neue, sans-serif;
-	font-size: 9px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-size: 13px;										/*Cambio de tamñano en texto o numeros hotspot*/
 	font-weight: 700;
 	left: calc(100% + 1em);
 	max-width: 128px;
@@ -219,7 +219,7 @@ model-viewer{
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 	color: rgba(0, 0, 0, 0.8);
 	display: block;
-	font-size: 9px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-size: 13px;										/*Cambio de tamñano en texto o numeros hotspot*/
 	font-weight: 700;
 	left: calc(100% + 1em);
 	max-width: 128px;
